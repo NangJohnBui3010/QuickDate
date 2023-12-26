@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QuickDate/static/css/main.4b457994.css",
+    "main.js": "/QuickDate/static/js/main.aae81498.js",
+    "static/js/787.44988476.chunk.js": "/QuickDate/static/js/787.44988476.chunk.js",
+    "index.html": "/QuickDate/index.html",
+    "main.4b457994.css.map": "/QuickDate/static/css/main.4b457994.css.map",
+    "main.aae81498.js.map": "/QuickDate/static/js/main.aae81498.js.map",
+    "787.44988476.chunk.js.map": "/QuickDate/static/js/787.44988476.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b457994.css",
+    "static/js/main.aae81498.js"
+  ]
+}
