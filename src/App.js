@@ -1,12 +1,13 @@
 import { useState } from "react";
 import './tinder_styles.css'
+
 function TinderRegistration(){
     const [name,setName] = useState("");
     const [age,setAge] = useState({value:"", isTouched:false});
     const [gender, setGender] = useState({})
     const [partner, setPartner] = useState([])
     const handleSubmit =(e)=> {
-        //alert("Account created!");
+        alert("Account created!");
         e.preventDefault();
         if(gender == "Male")
         {
@@ -36,10 +37,13 @@ function TinderRegistration(){
     }
     return(
         <div>
+            <div className = "header">
+                <b style = {{color:"white", fontSize:"50px"}}>💖QuickDate💋</b>
+            </div>
             <form onSubmit = {handleSubmit}>
                 <fieldset>
-                    <h1>💗Tinder💋 registration</h1>
-                    <h2>Ready to find your love or just hook up? You find the right place</h2>
+                    <h1>Registration</h1>
+                    <h2>Are you lonely this Valentine? You find the right place</h2>
 
                     <div className = "Field">
                         <label>Your name: </label>
