@@ -1,6 +1,7 @@
 # This is a simple resemblance of Tinder registraion
 
-Creator: Nang Bui (John)
+Creator: Nang Bui (John).\
+Live Demo: https://nangjohnbui3010.github.io/QuickDate/
 
 ## Overall performance
 
